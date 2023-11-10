@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10px for rem: */
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Nav Section */
+
+.nav--section {
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+/* Experience Section */
+
+.experience--section {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.experience--photo {
+  max-width: 50rem;
+  align-self: center;
+}
+
+.experience--title {
+  font-size: 5rem;
+  padding-bottom: 2rem;
+}
+
+.experience--description {
+  width: 50rem;
+  font-weight: 300;
+  font-size: 1.6rem;
+  color: #222222;
+}
+
+/* Cards Section */
+
+.cards--section {
+  padding: 2rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+}
+
+.description--div {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.card-desc {
+  padding-top: 0.7rem;
+}
+
+.bold-span {
+  font-weight: 600;
+}
+
+.grey-span {
+  color: #918e9b;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 9rem;
+  height: 2.5rem;
+  background-color: #ffffff;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  border-radius: 2px;
+}
+
+.status-text {
+  font-size: 1.3rem;
+}
