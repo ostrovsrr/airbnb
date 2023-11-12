@@ -3,7 +3,7 @@ export default function Experience() {
     <section className="experience--section">
       <img
         className="experience--photo"
-        src="../img/photos.png"
+        src={process.env.PUBLIC_URL + "/img/photos.png"}
         alt="Experience Photos"
       />
       <h1 className="experience--title">Online Experiences</h1>

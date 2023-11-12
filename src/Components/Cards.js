@@ -2,7 +2,11 @@ export default function Cards() {
   return (
     <section className="cards--section">
       <div className="card">
-        <img className="card-img" alt="Card" src="../img/card.png" />
+        <img
+          className="card-img"
+          alt="Card"
+          src={process.env.PUBLIC_URL + "/img/card.png"}
+        />
         <div className="status">
           <p className="status-text">SOLD OUT</p>
         </div>
@@ -18,7 +22,11 @@ export default function Cards() {
       </div>
 
       <div className="card">
-        <img className="card-img" alt="Card" src="../img/card.png" />
+        <img
+          className="card-img"
+          alt="Card"
+          src={process.env.PUBLIC_URL + "/img/card.png"}
+        />
         <div className="status">
           <p className="status-text">SOLD OUT</p>
         </div>
@@ -34,7 +42,11 @@ export default function Cards() {
       </div>
 
       <div className="card">
-        <img className="card-img" alt="Card" src="../img/card.png" />
+        <img
+          className="card-img"
+          alt="Card"
+          src={process.env.PUBLIC_URL + "/img/card.png"}
+        />
         <div className="status">
           <p className="status-text">SOLD OUT</p>
         </div>
